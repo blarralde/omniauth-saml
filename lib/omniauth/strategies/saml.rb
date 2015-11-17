@@ -100,7 +100,7 @@ module OmniAuth
         end
       end
 
-      uid { @name_id }
+      uid { @attributes[:uid] }
 
       info do
         {
